@@ -379,7 +379,7 @@ i::before {
     }
 }
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     #menu-icon {
         display: block;
     }
@@ -436,9 +436,9 @@ i::before {
         object-fit: contain;
     }
 
-    .icons {
+    /* .icons {
         text-wrap: nowrap;
-        /* transform: translateX(-5%) translateY(-100%); */
+        
         transform: translateX(-5%) translateY(40%);
         display: inline-block;
         padding: 2% 0;
@@ -450,7 +450,7 @@ i::before {
     .icons i {
         margin: 0 1rem;
         display: inline-block;
-    }
+    } */
 }
 
 @media (max-width: 500px) {
@@ -482,13 +482,13 @@ i::before {
         margin: 0 auto;
     }
 
-    .icons {
+    /* .icons {
         left: 0;
         padding: 0;
         transform: translateX(0%) translateY(150%);
         animation: slideInSmall 2.5s ease-in-out 0s;
         will-change: transform, opacity;
-    }
+    } */
 }
 
 @media (max-width: 320px) {
